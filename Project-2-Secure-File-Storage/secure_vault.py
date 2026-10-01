@@ -16,7 +16,7 @@ def load_or_generate_key():
         key = Fernet.generate_key()
         with open(KEY_FILE, "wb") as k_file:
             k_file.write(key)
-        print("[+] New AES encryption key generated and saved to 'secret.key'.")
+        print("[+] New Fernet encryption key generated and saved to 'secret.key'.")
         return key
 
 # 2. SHA-256 Hash Calculation for Integrity Check
