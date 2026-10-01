@@ -34,14 +34,14 @@ A Python-based security tool that analyzes web and authentication log files to i
 
 ---
 
-### 2. 🔐 Secure File Storage System — AES-256
+### 2. 🔐 Secure File Storage with AES
 
-A Python-based secure file storage system designed to protect sensitive files using encryption and integrity verification.
+A Python-based secure file storage system that uses Fernet symmetric encryption to protect files and SHA-256 hashing to verify file integrity and detect tampring.
 
 #### Key Features
 
 - Secure file encryption and decryption
-- AES-256 based encryption through Fernet
+- Fernet symmetric encryption for secure file protection
 - SHA-256 integrity verification
 - Metadata management
 - Detection of file tampering
@@ -51,7 +51,7 @@ A Python-based secure file storage system designed to protect sensitive files us
 
 - Python
 - Cryptography
-- AES-256
+- Fernet symmetric Encryption
 - SHA-256
 - JSON
 - File Integrity Verification
@@ -68,7 +68,7 @@ A Python-based secure file storage system designed to protect sensitive files us
 - Intrusion Detection
 - Network & Security Analysis
 - Cryptography
-- AES-256 Encryption
+- Fernet symmetric Encryption
 - SHA-256 Hashing
 - File Integrity Verification
 - Security Automation
