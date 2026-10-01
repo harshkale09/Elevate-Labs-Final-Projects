@@ -1,10 +1,6 @@
-# 🔐 Secure File Storage System
+# 🔐 Secure File Storage with AES
 
-A lightweight, CLI-based secure file storage system built with Python.
-
-This project demonstrates secure file handling using Fernet authenticated symmetric encryption, SHA-256 cryptographic hashing, encryption key management, metadata storage, and file integrity verification.
-
-The system can encrypt files, store their integrity information, decrypt encrypted files, and verify whether the recovered file matches its original SHA-256 hash.
+A Python-based secure file storage system that uses Fernet symmetric encryption to protect files and SHA-256 hashing to verify file integrity and detect tampering
 
 ---
 
@@ -255,7 +251,7 @@ The application provides an interactive command-line interface.
 Main Menu:
 
 ==========================================
-  AES-256 SECURE FILE STORAGE SYSTEM
+SECURE FILE STORAGE SYSTEM
 ==========================================
 1. Encrypt a File
 2. Decrypt a File & Verify Integrity
